@@ -1,0 +1,494 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+[data-order] {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+/*Navigation part styling started*/
+
+.style{
+  position: fixed;
+  z-index: 1;
+  background: #85bbbb;
+  left: 0;
+  right: 0;
+}
+.Anch {
+  font-size: 35px;
+  /* color: #ececec;*/
+  color: red;
+  text-decoration: none;
+}
+sub {
+  color: black;
+  text-decoration: none;
+}
+
+ul.topnav {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: -11px;
+  margin-top: -11px;
+}
+
+ul.topnav li {
+  margin: 10px;
+}
+
+ul.topnav li:last-child {
+  margin-right: 0px;
+}
+
+ul.topnav li a {
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+ul.topnav li:last-child a {
+  padding-right: 0px;
+}
+
+ul.topnav li a:hover,
+ul.topnav li a.active {
+  color: red;
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+}
+
+/*Navigation part styling ended*/
+
+/*
+#carouselExampleIndicators{
+  margin-top: -27px;
+}
+*/
+
+/*Carousel Part styling started*/
+.carousel-inner .carousel-item active{
+  height: 680px;
+  width: 100%;
+}
+
+.carousel-inner .carousel-item {
+  height: 680px;
+  width: 100%;
+}
+
+/*Carousel part styling ended*/
+
+
+/*Services part styling started*/
+#Services {
+  background-color: rgb(217, 241, 237);
+  text-align: center;
+  margin-top: -33px;
+}
+
+.service-head h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  padding-top: 107px;
+}
+
+.service-head h1 span{
+   border-bottom: 4px solid red;
+   padding-bottom: 5px;
+}
+
+/* .underline{
+  margin-top: -2px;
+  margin-bottom: 17px;
+  margin-left: 679px;
+  size:5; 
+  width:150px;
+  color:red;
+} */
+
+.service-para p {
+  margin-top: 30px;
+  /*border: 2px solid red;*/
+  font-size: 18px;
+  margin-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.our-service {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  flex-flow: wrap;
+}
+
+.our-service .box {
+  background: white;
+  text-align: center;
+  padding: 17px;
+  width: 32%;
+  margin-bottom: 48px;
+}
+
+.Sub-heading {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.Sub-para {
+  margin-top: 0px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.icon {
+  margin-left: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 160px;
+  width: 133px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+/*Services part styling ended*/
+
+/*About Us styling*/
+
+#Services-1 {
+  height: 670px;
+  background-color: rgb(217, 241, 237);
+  text-align: center;
+  margin-top: 0px;
+}
+
+.Aboutus {
+  display: flex;
+  justify-content: space-between;
+}
+.content_image h1 {
+  font-size: 26px;
+  padding-left: 70px;
+  font-family: "Open Sans", sans-serif;
+}
+.content_image p {
+  color: rgb(95, 83, 83);
+  font-size: 14px;
+  padding-left: 70px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.image {
+  height: 352.4px;
+  width: 100%;
+}
+
+.image img {
+  height: 352.4px;
+}
+
+.content_image hr {
+  padding-left: 70px;
+}
+
+.content_image .btn {
+  font-size: 12px;
+  color: white;
+  margin-left: -456px;
+  text-decoration: none;
+  background-color: rgb(226, 45, 45);
+  font-family: "Raleway", sans-serif;
+  padding: 14px 24px;
+  font-weight: bold;
+}
+
+/* Portfolio Styling started*/
+
+#portfolio {
+  text-align: center;
+  margin-top: -33px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+
+.tile {
+  position: relative;
+  height: 245px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-left: -17px;
+  margin-top: -17px;
+  width: 375px;
+  transition: all 0.5s ease;
+}
+
+.portfolio_content {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  flex-flow: wrap;
+}
+
+.portfolio_content .box-1 {
+  border-radius: 4px;
+  background: white;
+  text-align: center;
+  padding: 17px;
+  width: 32%;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+
+.box-1 p {
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tile:hover {
+  background-size: 120%;
+}
+
+.tile::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tile:hover::before {
+  background: rgb(94, 85, 85);
+}
+
+/*Expert Team styling */
+
+#Expert {
+  text-align: center;
+  margin-top: -50px;
+  background-color: rgb(217, 241, 237);
+  color: black;
+}
+
+.Expert_team {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  flex-flow: wrap;
+}
+
+.expert {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-left: -17px;
+  margin-top: -17px;
+  width: 267px;
+}
+
+.box-2 .Sub-heading{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.Expert_team .box-2 {
+  background: white;
+  text-align: center;
+  padding: 17px;
+  width: 23%;
+  margin-bottom: 48px;
+}
+
+/*Best Plan Styling*/
+
+#Best{
+  text-align: center;
+  margin-top: -50px;
+  background-color: rgb(217, 241, 237);
+  color: black;
+  padding-bottom: 70px;
+}
+
+.Best_plan {
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  flex-flow: wrap;
+  padding-top: 60px;
+}
+.price {
+  height: 100px;
+  width: 240px;
+  border-bottom: 1px dashed black ;
+  font-size: 25px;
+  padding-top: 10px;
+  margin-left: -8px;
+}
+
+.Best_plan .box-2{
+  background: white;
+  text-align: center;
+  padding: 17px;
+  width: 22%;
+}
+
+.Best_plan .box-2 p{
+  font-size: 12px;
+  font-family:"Open Sans", sans-serif ;
+  margin-top: 27px;
+  font-weight: bold;
+}
+
+.Best_plan .box-2 .Sub-heading{
+  font-size: 22px;
+  margin-top: 5px;
+  font-weight:bolder;
+}
+
+.Best_plan .box-2 .Sub-para{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(95, 83, 83);
+}
+
+.Best_plan .box-2 .link{
+  border: 1px solid rgb(241, 25, 25);
+  text-decoration: none;
+  background-color:rgb(241, 25, 25) ;
+  padding: 4px;
+  color: white;
+  font-size: 12px;
+  font-family:"Open Sans", sans-serif ;
+}
+
+/* Intro_section styling starts */
+#Intro{
+  background-color: black;
+  height: 400px;
+}
+ #Intro .carousel-item active {
+   
+}
+#Intro .carousel-inner .img1{
+  margin-top: 60px;
+  height: 200px;
+  width: 150px;
+}
+#Intro .carousel-inner .carousel-item{
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+/*  
+#Intro .carousel-item{
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  */
+.carousel-item active ,
+.carousel-item{
+  color: white;
+} 
+
+/*Contact Us Styling */
+#contact{
+  text-align: center;
+  margin-top: 0px;
+  background-color: rgb(217, 241, 237);
+  color: black;
+}
+.contact_us{
+  display: flex;
+  justify-content: center;
+}
+.box-3{
+  height: 420px;
+  width: 400px;
+  padding-top: 10px;
+}
+.margin{
+  text-align: left;
+  padding-left: 80px;
+}
+.form{
+  height: 420px;
+  width: 800px;
+}
+.Detail{
+  width: 700px;
+}
+.contact_us .btn1{
+  margin-right: -638px;
+  color: white;
+  border: 1px solid rgb(241, 25, 25);
+  background-color: rgb(241, 25, 25);
+}
+
+
+/* Footer styling starts */
+#footer{
+  background-color: black;
+  display: flex;
+  justify-content:space-between;
+  color: red;
+
+}
+#footer p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  text-align: left;
+  padding: 10px;
+}
+.icons{
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  display: flex;
+  padding: 10px;
+}
+.icon-1 a{
+  color: red;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 30px;
+
+}
+/* Footer styling ended */
